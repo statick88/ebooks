@@ -1,6 +1,28 @@
 {
   "ebooks": [
     {
+      "id": "learning-journey",
+      "title": "Learning Journey - Desafíos Técnicos",
+      "description": "Repositorio unificado de desafíos técnicos para aprendizaje de Linux, Docker y DevOps. Incluye ejercicios prácticos y guías paso a paso.",
+      "tags": [
+        "Linux",
+        "Docker",
+        "DevOps",
+        "Desafíos",
+        "Práctico"
+      ],
+      "githubUrl": "https://github.com/statick88/challenges/tree/main/learning-journey",
+      "pagesUrl": "https://statick88.github.io/challenges/learning-journey",
+      "hasPages": true,
+      "language": "HTML",
+      "year": 2026,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2026-02-20",
+      "category": "DevOps",
+      "level": "Intermedio"
+    },
+    {
       "id": "desarrollo-software-seguro",
       "title": "Desarrollo de Software Seguro",
       "description": "Guía completa sobre prácticas de desarrollo seguro. Cubre principios de seguridad, vulnerabilidades comunes (OWASP), code review seguro, testing de seguridad y DevSecOps.",
