@@ -16,6 +16,33 @@ export default function EbookGrid({ ebooks }: EbookGridProps) {
   const [activeTags, setActiveTags] = useState<string[]>([]);
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState<SortOption>('year-desc');
+  const [lang, setLang] = useState<'es' | 'en'>('es');
+
+  useEffect(() => {
+    const currentLang = document.documentElement.getAttribute('lang') as 'es' | 'en' || 'es';
+    setLang(currentLang);
+
+    const handleLangChange = (e: Event) => {
+      const customEvent = e as CustomEvent<{ lang: 'es' | 'en' }>;
+      setLang(customEvent.detail.lang);
+    };
+
+    window.addEventListener('langchange', handleLangChange);
+    return () => window.removeEventListener('langchange', handleLangChange);
+  }, []);
+
+  const translations = {
+    es: {
+      results: { single: 'ebook encontrado', plural: 'ebooks encontrados' },
+      filters: { clearFilters: 'Limpiar filtros' },
+      resultsNoResults: 'No se encontraron ebooks con los filtros actuales'
+    },
+    en: {
+      results: { single: 'ebook found', plural: 'ebooks found' },
+      filters: { clearFilters: 'Clear filters' },
+      resultsNoResults: 'No ebooks found with current filters'
+    }
+  };
 
   // Debounce search query
   useEffect(() => {
@@ -126,8 +153,8 @@ export default function EbookGrid({ ebooks }: EbookGridProps) {
       </div>
 
       <div className="results-info">
-        <span data-i18n-text={filteredAndSortedEbooks.length === 1 ? 'results.single' : 'results.plural'}>
-          {filteredAndSortedEbooks.length} {filteredAndSortedEbooks.length === 1 ? 'ebook encontrado' : 'ebooks encontrados'}
+        <span>
+          {filteredAndSortedEbooks.length} {filteredAndSortedEbooks.length === 1 ? translations[lang].results.single : translations[lang].results.plural}
         </span>
       </div>
 
@@ -143,9 +170,9 @@ export default function EbookGrid({ ebooks }: EbookGridProps) {
             <circle cx="11" cy="11" r="8" />
             <line x1="21" y1="21" x2="16.65" y2="16.65" />
           </svg>
-          <p data-i18n="results.noResults">No se encontraron ebooks con los filtros actuales</p>
-          <button className="btn" onClick={clearFilters} data-i18n="filters.clearFilters">
-            Limpiar filtros
+          <p>{translations[lang].resultsNoResults}</p>
+          <button className="btn" onClick={clearFilters}>
+            {translations[lang].filters.clearFilters}
           </button>
         </div>
       )}

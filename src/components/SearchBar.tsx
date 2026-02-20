@@ -1,9 +1,26 @@
+import { useState, useEffect } from 'react';
+
 interface SearchBarProps {
   value: string;
   onChange: (value: string) => void;
 }
 
 export default function SearchBar({ value, onChange }: SearchBarProps) {
+  const [lang, setLang] = useState<'es' | 'en'>('es');
+
+  useEffect(() => {
+    const currentLang = document.documentElement.getAttribute('lang') as 'es' | 'en' || 'es';
+    setLang(currentLang);
+
+    const handleLangChange = (e: Event) => {
+      const customEvent = e as CustomEvent<{ lang: 'es' | 'en' }>;
+      setLang(customEvent.detail.lang);
+    };
+
+    window.addEventListener('langchange', handleLangChange);
+    return () => window.removeEventListener('langchange', handleLangChange);
+  }, []);
+
   return (
     <div className="search-container">
       <svg
@@ -21,16 +38,15 @@ export default function SearchBar({ value, onChange }: SearchBarProps) {
       <input
         type="text"
         className="search-input"
-        placeholder="Buscar ebooks..."
+        placeholder={lang === 'es' ? 'Buscar ebooks...' : 'Search ebooks...'}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        data-i18n-placeholder="filters.search"
       />
       {value && (
         <button 
           className="search-clear" 
           onClick={() => onChange('')} 
-          aria-label="Limpiar"
+          aria-label={lang === 'es' ? 'Limpiar' : 'Clear'}
         >
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <line x1="18" y1="6" x2="6" y2="18" />
