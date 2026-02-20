@@ -1,0 +1,532 @@
+{
+  "ebooks": [
+    {
+      "id": "desarrollo-software-seguro",
+      "title": "Desarrollo de Software Seguro",
+      "description": "Guía completa sobre prácticas de desarrollo seguro. Cubre principios de seguridad, vulnerabilidades comunes (OWASP), code review seguro, testing de seguridad y DevSecOps.",
+      "tags": [
+        "Seguridad",
+        "DevSecOps",
+        "OWASP",
+        "Desarrollo",
+        "Best Practices"
+      ],
+      "githubUrl": "https://github.com/statick88/desarrollo-software-seguro",
+      "pagesUrl": "https://statick88.github.io/desarrollo-software-seguro",
+      "hasPages": true,
+      "language": "JavaScript",
+      "year": 2025,
+      "stars": 1,
+      "forks": 0,
+      "lastUpdated": "2025-11-12",
+      "category": "Other",
+      "level": "Avanzado"
+    },
+    {
+      "id": "administracion-servidores-linux",
+      "title": "Administración de Servidores Linux",
+      "description": "Guía completa para administrar servidores Linux en entornos de producción. Cubre comandos esenciales, usuarios, permisos, redes y seguridad.",
+      "tags": [
+        "Linux",
+        "DevOps",
+        "Administración",
+        "Quarto"
+      ],
+      "githubUrl": "https://github.com/statick88/administracion-servidores-linux",
+      "pagesUrl": "https://statick88.github.io/administracion-servidores-linux",
+      "hasPages": true,
+      "language": "SCSS",
+      "year": 2026,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2026-02-09",
+      "category": "DevOps",
+      "level": "Intermedio"
+    },
+    {
+      "id": "course_docker",
+      "title": "Curso de Docker",
+      "description": "Aprende Docker desde cero: contenedores, imágenes, volúmenes, redes y Docker Compose para desarrollo y producción.",
+      "tags": [
+        "Docker",
+        "DevOps",
+        "Contenedores"
+      ],
+      "githubUrl": "https://github.com/statick88/course_docker",
+      "pagesUrl": "https://statick88.github.io/course_docker",
+      "hasPages": true,
+      "language": "JavaScript",
+      "year": 2024,
+      "stars": 1,
+      "forks": 0,
+      "lastUpdated": "2024-05-17",
+      "category": "DevOps",
+      "level": "Intermedio"
+    },
+    {
+      "id": "course_of_django_and_react",
+      "title": "Curso de Django y React",
+      "description": "Desarrollo web full stack con Django REST Framework en el backend y React en el frontend. APIs REST, autenticación y deployment.",
+      "tags": [
+        "Django",
+        "React",
+        "Python",
+        "JavaScript",
+        "Full Stack"
+      ],
+      "githubUrl": "https://github.com/statick88/course_of_django_and_react",
+      "pagesUrl": "https://statick88.github.io/course_of_django_and_react",
+      "hasPages": true,
+      "language": "SCSS",
+      "year": 2023,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2024-10-19",
+      "category": "Frontend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "course_of_FastAPI",
+      "title": "Curso de FastAPI",
+      "description": "Desarrollo de APIs modernas con FastAPI. Rutas, modelos Pydantic, autenticación JWT, bases de datos y testing.",
+      "tags": [
+        "FastAPI",
+        "Python",
+        "API REST",
+        "Backend"
+      ],
+      "githubUrl": "https://github.com/statick88/course_of_FastAPI",
+      "pagesUrl": "https://statick88.github.io/course_of_FastAPI",
+      "hasPages": true,
+      "language": "SCSS",
+      "year": 2023,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2024-10-09",
+      "category": "Backend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "course_of_next",
+      "title": "Curso de Next.js",
+      "description": "Desarrollo de aplicaciones web con Next.js. App Router, Server Components, rutas dinámicas y optimización.",
+      "tags": [
+        "Next.js",
+        "React",
+        "JavaScript",
+        "Frontend"
+      ],
+      "githubUrl": "https://github.com/statick88/course_of_next",
+      "pagesUrl": "https://statick88.github.io/course_of_next",
+      "hasPages": true,
+      "language": "JavaScript",
+      "year": 2024,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2024-07-15",
+      "category": "Frontend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "Curso-de-Data-Science-en-Python",
+      "title": "Curso de Data Science en Python",
+      "description": "Introducción a la ciencia de datos con Python. Pandas, NumPy, Matplotlib, análisis exploratorio y machine learning básico.",
+      "tags": [
+        "Python",
+        "Data Science",
+        "Pandas",
+        "Machine Learning"
+      ],
+      "githubUrl": "https://github.com/statick88/Curso-de-Data-Science-en-Python",
+      "pagesUrl": "https://statick88.github.io/Curso-de-Data-Science-en-Python",
+      "hasPages": true,
+      "language": "Jupyter Notebook",
+      "year": 2023,
+      "stars": 2,
+      "forks": 0,
+      "lastUpdated": "2023-05-03",
+      "category": "Backend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "Curso-de-Python-junio-2022",
+      "title": "Curso de Python",
+      "description": "Curso completo de Python desde cero. Sintaxis, estructuras de datos, POO, archivos y proyectos prácticos.",
+      "tags": [
+        "Python",
+        "Programación",
+        "Básico"
+      ],
+      "githubUrl": "https://github.com/statick88/Curso-de-Python-junio-2022",
+      "pagesUrl": "https://statick88.github.io/Curso-de-Python-junio-2022",
+      "hasPages": true,
+      "language": "Python",
+      "year": 2022,
+      "stars": 1,
+      "forks": 2,
+      "lastUpdated": "2023-05-20",
+      "category": "Backend",
+      "level": "Básico"
+    },
+    {
+      "id": "Curso-Html5-Css3",
+      "title": "Curso de HTML5 y CSS3",
+      "description": "Fundamentos del desarrollo web frontend. HTML semántico, CSS moderno, Flexbox, Grid y diseño responsivo.",
+      "tags": [
+        "HTML",
+        "CSS",
+        "Frontend",
+        "Web"
+      ],
+      "githubUrl": "https://github.com/statick88/Curso-Html5-Css3",
+      "pagesUrl": "https://statick88.github.io/Curso-Html5-Css3",
+      "hasPages": true,
+      "language": "HTML",
+      "year": 2022,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2023-03-05",
+      "category": "Frontend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "curso_Django2021",
+      "title": "Curso de Django 2021",
+      "description": "Tutorial básico de Django. Models, Views, Templates, Forms y admin para crear aplicaciones web.",
+      "tags": [
+        "Django",
+        "Python",
+        "Web",
+        "Backend"
+      ],
+      "githubUrl": "https://github.com/statick88/curso_Django2021",
+      "pagesUrl": "https://statick88.github.io/curso_Django2021",
+      "hasPages": true,
+      "language": "Python",
+      "year": 2021,
+      "stars": 0,
+      "forks": 1,
+      "lastUpdated": "2021-12-14",
+      "category": "Backend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "curso_django_dic_2022",
+      "title": "Curso de Django Dic 2022",
+      "description": "Curso actualizado de Django. Proyectos prácticos, APIs, autenticación y deployment.",
+      "tags": [
+        "Django",
+        "Python",
+        "Web"
+      ],
+      "githubUrl": "https://github.com/statick88/curso_django_dic_2022",
+      "pagesUrl": "https://statick88.github.io/curso_django_dic_2022",
+      "hasPages": true,
+      "language": "Python",
+      "year": 2022,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2023-12-10",
+      "category": "Backend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "curso_nvim",
+      "title": "Curso de Neovim",
+      "description": "Configuración y uso de Neovim como IDE. Plugins, LSP, temas y flujos de trabajo productivos.",
+      "tags": [
+        "Neovim",
+        "Vim",
+        "Editor",
+        "Productividad"
+      ],
+      "githubUrl": "https://github.com/statick88/curso_nvim",
+      "pagesUrl": "https://statick88.github.io/curso_nvim",
+      "hasPages": true,
+      "language": "SCSS",
+      "year": 2024,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2024-11-06",
+      "category": "Other",
+      "level": "Intermedio"
+    },
+    {
+      "id": "curso_django_and_react_2024",
+      "title": "Django y React 2024",
+      "description": "Proyecto full stack con Django y React. API REST, frontend moderno y deployment.",
+      "tags": [
+        "Django",
+        "React",
+        "Python",
+        "Full Stack"
+      ],
+      "githubUrl": "https://github.com/statick88/curso_django_and_react_2024",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": "Python",
+      "year": 2024,
+      "stars": 1,
+      "forks": 4,
+      "lastUpdated": "2024-08-17",
+      "category": "Frontend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "Curso-Django-2022",
+      "title": "Curso Django 2022",
+      "description": "Tutoriales básicos para iniciarse en Django. Conceptos fundamentales del framework.",
+      "tags": [
+        "Django",
+        "Python",
+        "Web"
+      ],
+      "githubUrl": "https://github.com/statick88/Curso-Django-2022",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": "Python",
+      "year": 2022,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2022-12-13",
+      "category": "Backend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "Curso-Desarrollo-Web-Full-Stack",
+      "title": "Desarrollo Web Full Stack",
+      "description": "Instalaciones y configuración necesaria para desarrollo web full stack.",
+      "tags": [
+        "Full Stack",
+        "Web",
+        "Setup"
+      ],
+      "githubUrl": "https://github.com/statick88/Curso-Desarrollo-Web-Full-Stack",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": null,
+      "year": 2022,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2024-11-19",
+      "category": "Other",
+      "level": "Intermedio"
+    },
+    {
+      "id": "Curso-de-Flutter-Avanzado-en-Platzi",
+      "title": "Flutter Avanzado",
+      "description": "Conceptos avanzados de Flutter. Arquitectura, estado, testing y más.",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "Mobile"
+      ],
+      "githubUrl": "https://github.com/statick88/Curso-de-Flutter-Avanzado-en-Platzi",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": null,
+      "year": 2022,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2023-03-01",
+      "category": "Mobile",
+      "level": "Avanzado"
+    },
+    {
+      "id": "aprendiendo-react",
+      "title": "Aprendiendo React",
+      "description": "Curso para aprender React desde cero. Componentes, hooks, estado y más.",
+      "tags": [
+        "React",
+        "JavaScript",
+        "Frontend"
+      ],
+      "githubUrl": "https://github.com/statick88/aprendiendo-react",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": null,
+      "year": 2023,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2023-04-06",
+      "category": "Frontend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "Curso-js",
+      "title": "Curso de JavaScript",
+      "description": "Fundamentos de JavaScript moderno. ES6+, async/await, DOM y más.",
+      "tags": [
+        "JavaScript",
+        "Web",
+        "Frontend"
+      ],
+      "githubUrl": "https://github.com/statick88/Curso-js",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": "JavaScript",
+      "year": 2022,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2023-01-28",
+      "category": "Frontend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "curso-js-practico",
+      "title": "JavaScript Práctico",
+      "description": "Curso práctico de JavaScript con proyectos reales.",
+      "tags": [
+        "JavaScript",
+        "Práctico",
+        "Web"
+      ],
+      "githubUrl": "https://github.com/statick88/curso-js-practico",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": null,
+      "year": 2022,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2022-07-18",
+      "category": "Frontend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "curso-scope-closure",
+      "title": "Scope y Closure en JavaScript",
+      "description": "Conceptos avanzados de JavaScript: scope, closure y el modelo de ejecución.",
+      "tags": [
+        "JavaScript",
+        "Avanzado"
+      ],
+      "githubUrl": "https://github.com/statick88/curso-scope-closure",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": "JavaScript",
+      "year": 2022,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2023-03-15",
+      "category": "Frontend",
+      "level": "Avanzado"
+    },
+    {
+      "id": "course_ccharp",
+      "title": "Curso de C#",
+      "description": "Fundamentos de programación con C# y .NET.",
+      "tags": [
+        "C#",
+        ".NET",
+        "Backend"
+      ],
+      "githubUrl": "https://github.com/statick88/course_ccharp",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": "C#",
+      "year": 2023,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2023-11-17",
+      "category": "Backend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "course_dart",
+      "title": "Curso de Dart",
+      "description": "Aprende Dart desde cero para desarrollo móvil con Flutter.",
+      "tags": [
+        "Dart",
+        "Flutter",
+        "Mobile"
+      ],
+      "githubUrl": "https://github.com/statick88/course_dart",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": "Dart",
+      "year": 2023,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2023-04-06",
+      "category": "Mobile",
+      "level": "Intermedio"
+    },
+    {
+      "id": "curso-acessibilidad-web",
+      "title": "Accesibilidad Web",
+      "description": "Curso sobre accesibilidad web y buenas prácticas de diseño inclusivo.",
+      "tags": [
+        "Accesibilidad",
+        "Web",
+        "UX"
+      ],
+      "githubUrl": "https://github.com/statick88/curso-acessibilidad-web",
+      "pagesUrl": "https://gmzjuliana.github.io/curso-acessibilidad-web/index.html",
+      "hasPages": false,
+      "language": null,
+      "year": 2022,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2019-12-18",
+      "category": "Other",
+      "level": "Intermedio"
+    },
+    {
+      "id": "curso-nvim-slides",
+      "title": "Slides Curso Neovim",
+      "description": "Material complementario del curso de Neovim.",
+      "tags": [
+        "Neovim",
+        "Presentaciones"
+      ],
+      "githubUrl": "https://github.com/statick88/curso-nvim-slides",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": "Lua",
+      "year": 2024,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2026-01-03",
+      "category": "Other",
+      "level": "Intermedio"
+    },
+    {
+      "id": "cursos_ejemplo",
+      "title": "Ejemplos de Cursos",
+      "description": "Repositorio con ejemplos de código para diversos cursos.",
+      "tags": [
+        "Python",
+        "Ejemplos"
+      ],
+      "githubUrl": "https://github.com/statick88/cursos_ejemplo",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": "Python",
+      "year": 2022,
+      "stars": 0,
+      "forks": 0,
+      "lastUpdated": "2024-10-09",
+      "category": "Backend",
+      "level": "Intermedio"
+    },
+    {
+      "id": "curso_python_nov2021-main",
+      "title": "Python Nov 2021",
+      "description": "Curso de Python impartido en noviembre 2021.",
+      "tags": [
+        "Python",
+        "Programación"
+      ],
+      "githubUrl": "https://github.com/statick88/curso_python_nov2021-main",
+      "pagesUrl": null,
+      "hasPages": false,
+      "language": "Python",
+      "year": 2021,
+      "stars": 0,
+      "forks": 1,
+      "lastUpdated": "2021-12-10",
+      "category": "Backend",
+      "level": "Intermedio"
+    }
+  ]
+}

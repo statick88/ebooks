@@ -1,0 +1,27 @@
+{
+  "name": "ebooks-portfolio",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Portafolio de ebooks y cursos de programación de Diego Saavedra",
+  "scripts": {
+    "dev": "astro dev",
+    "prebuild": "npx tsx scripts/fetch-github-data.ts",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fetch-data": "npx tsx scripts/fetch-github-data.ts"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/sitemap": "^3.7.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.17.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0"
+  }
+}

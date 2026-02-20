@@ -1,0 +1,81 @@
+---
+import Layout from '../layouts/Layout.astro';
+import EbookGrid from '../components/EbookGrid';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import ebooksData from '../data/ebooks.json';
+import type { Ebook } from '../types/ebook';
+
+const ebooks = ebooksData.ebooks as Ebook[];
+const totalEbooks = ebooks.length;
+const categories = [...new Set(ebooks.map(e => e.category).filter(Boolean))];
+---
+
+<Layout 
+  title="Ebooks Portfolio - Diego Saavedra"
+  description="Portafolio de {totalEbooks} ebooks y cursos de programación. Django, React, Python, Docker, Linux y más."
+>
+  <Header title="Ebooks" />
+  
+  <main id="main-content" class="container">
+    <section class="hero-section">
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">{totalEbooks}</span>
+          <span class="stat-label" data-i18n="hero.ebooks">Ebooks</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">{categories.length}</span>
+          <span class="stat-label" data-i18n="hero.categories">Categorías</span>
+        </div>
+      </div>
+      <h1 data-i18n="hero.title">Portafolio de Ebooks</h1>
+      <p data-i18n="hero.subtitle">Cursos y materiales educativos creados a lo largo de mi carrera como desarrollador y educador.</p>
+    </section>
+    
+    <EbookGrid client:load ebooks={ebooks} />
+  </main>
+  
+  <Footer />
+</Layout>
+
+<style>
+  .hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  @media (max-width: 480px) {
+    .hero-stats {
+      gap: 2rem;
+    }
+
+    .stat-number {
+      font-size: 2rem;
+    }
+  }
+</style>
