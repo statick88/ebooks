@@ -3,14 +3,12 @@ import type { Ebook } from '../types/ebook';
 import EbookCard from './EbookCard';
 import SearchBar from './SearchBar';
 import TechFilter from './TechFilter';
-import SortDropdown from './SortDropdown';
+import SortDropdown, { type SortOption } from './SortDropdown';
 import CategoryFilter from './CategoryFilter';
 
 interface EbookGridProps {
   ebooks: Ebook[];
 }
-
-type SortOption = 'year-desc' | 'year-asc' | 'name-asc' | 'name-desc' | 'stars-desc';
 
 export default function EbookGrid({ ebooks }: EbookGridProps) {
   const [searchQuery, setSearchQuery] = useState('');

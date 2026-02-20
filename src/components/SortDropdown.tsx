@@ -1,9 +1,9 @@
-interface SortDropdownProps {
-  value: string;
-  onChange: (value: string) => void;
-}
+export type SortOption = 'year-desc' | 'year-asc' | 'name-asc' | 'name-desc' | 'stars-desc';
 
-type SortOption = 'year-desc' | 'year-asc' | 'name-asc' | 'name-desc' | 'stars-desc';
+interface SortDropdownProps {
+  value: SortOption;
+  onChange: (value: SortOption) => void;
+}
 
 const sortOptions: { value: SortOption; labelEs: string; labelEn: string; i18nKey: string }[] = [
   { value: 'year-desc', labelEs: 'Más reciente', labelEn: 'Newest first', i18nKey: 'sort.yearDesc' },
@@ -29,7 +29,7 @@ export default function SortDropdown({ value, onChange }: SortDropdownProps) {
       <select 
         className="sort-select"
         value={value}
-        onChange={(e) => onChange(e.target.value)}
+        onChange={(e) => onChange(e.target.value as SortOption)}
       >
         {sortOptions.map((option) => (
           <option key={option.value} value={option.value} data-i18n={option.i18nKey}>
